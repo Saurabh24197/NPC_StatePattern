@@ -4,8 +4,7 @@ The NPC's perform different actions as defined from their behaviour Scripts.
 The NPC's are able to perform Melee as well as Ranged Attacks. 
 
 ## Contents
-These are the different modules that work for the NPC, to handle their behaviour
-and manage the components attached to their GameObject.
+These are the different modules that work for the NPC, to handle their behaviour and manage the components attached to their GameObject.
 
 ### NPC_Master.cs
 ```
@@ -62,17 +61,17 @@ They might refer to scripts in [BaseFramework](https://github.com/Saurabh24197/B
 
 ### NPC Relations
 Defines the NPC_Relations (NPC Factions).
-- Attached to NPC game object
+Attached to NPC game object
 * NPCRelationsDataStructures
 * NPC_ApplyRelations
 
-- Attached to GameManager game object (See [BaseFramework](https://github.com/Saurabh24197/BaseFramework) Game-Manager Scripts)
+Attached to GameManager game object (See [BaseFramework](https://github.com/Saurabh24197/BaseFramework) Game-Manager Scripts)
 * GameManager_NPCRelationsMaster
 * GameManager_NPCRelationsProcessor
 * GameManager_NPCRelationsUI
 
 
-- Attached to Destructible Items (to make NPC's react on destroy of these Items)
+Attached to Destructible Items (to make NPC's react on destroy of these Items)
 * Destructible_NPCRelation
 
 ### NPCTO Scripts
@@ -82,7 +81,7 @@ Used to disable (Turn-off) components on death.
 * NPCTO_ChildGameObjects
 * NPCTO_NavMeshAgent
 * NPCTO_StatePattern
-------------------------------------------------------------------------------------------------
+---
 
 # Expunge! v1.2 01-01-2018
 ```
@@ -96,11 +95,11 @@ Pick up Health when you're hurt and score points for each enemy eliminated.
 * [Itch.io](https://nogtx.itch.io/expunge) - Download
 * [Indie DB](http://www.indiedb.com/games/expunge) - Download
 * [Steam](http://steamcommunity.com/groups/Expunge_Game) - Steam Group
-------------------------------------------------------------------------------------------------
+---
 
 ## Acknowledgments
 
-A Special thanks to  *Looqmaan Ali aka GTGD* who provided Game Development Tutorial
+A Special thanks to  *Looqmaan Ali aka GTGD* who provided Game Development Tutorials
 based on which these Scripts were created.
 
 Created by Saurabh K
