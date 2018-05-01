@@ -1,10 +1,10 @@
 # NPC_StatePattern
-NPC Statepattern is a State based AI that was implemented from GTGDS3, to Expunge!
-The NPC's perform different actions as defined from their behaviour Scripts.
-The NPC's are able to perform Melee as well as Ranged Attacks. 
+NPC Statepattern is a State based AI that was implemented from GTGDS3, to Expunge!<br/>
+The NPC's perform different actions as defined from their behaviour Scripts.<br/>
+The NPC's are able to perform Melee as well as Ranged Attacks.
 
 ## Contents
-These are the different modules that work for the NPC, to handle their behaviour and manage the components attached to their GameObject.
+These are the different modules that work for the NPC,<br/> to handle their behaviour and manage the components attached to their GameObject.
 
 ### NPC_Master.cs
 ```
@@ -18,11 +18,12 @@ more can be created by defining the Events and boolean in this Script.
 ### NPC_StatePattern.cs
 ```
 State Pattern defines all the State variables and sets-up the different state references.
-The methods are used to initialize the state variables [SetInitialReferences(), SetupStateReferences(), OnEnable()]
+The methods are used to initialize the state variables [SetInitialReferences(), SetupStateReferences()]
 perform state updates [CarryOutUpdateState()],
 and activate state actions[ ActivatePatrolState(), ActivateFleeState(), OnEnemyAttack(), ... ].
 
-Other behaviour Scripts will refer the NPCState_Interface variables (currentState/capturedState) to update some of the States.
+Other behaviour Scripts will refer the NPCState_Interface variables (currentState/capturedState)
+to update some of the States.
 ```
 
 ### NPC_StateBehaviours
@@ -39,7 +40,7 @@ These are the different behaviours for the NPC.
 * NPCState_InvestigateHarm
 
 ### NPC_* Scripts
-These scripts manage the different components attached to the gameobject.
+These scripts manage the different components attached to the gameobject.<br/>
 They also manage the actions to perfrom for some of the states.
 
 * NPC_Animations
@@ -53,7 +54,7 @@ They also manage the actions to perfrom for some of the states.
 * NPC_StateColour
 * NPC_TakeDamage
 
-These are optional Scripts that perform npc actions but may or may not use the NPC_StatePattern.
+These are optional Scripts that perform npc actions but may or may not use the NPC_StatePattern.<br/>
 They might refer to scripts in [BaseFramework](https://github.com/Saurabh24197/BaseFramework)
 * NPC_OnHeadCollision
 * NPC_ScoresUpdate
